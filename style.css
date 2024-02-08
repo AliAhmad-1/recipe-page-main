@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     justify-items: center;
-    background-color: hsl(330, 100%, 98%);
+    background-color: hsl(30, 54%, 90%);
     font-family: 'Outfit', sans-serif;
 }
 
@@ -48,7 +48,7 @@ body {
     margin-top: 1.2rem;
     border-radius: 0.5rem;
     padding: 1.5rem;
-    background-color: hsl(30, 54%, 90%);
+    background-color: hsl(330, 100%, 98%);
 }
 
 .paragrafh_container h4 {
