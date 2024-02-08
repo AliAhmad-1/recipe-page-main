@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: hsl(330, 100%, 98%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    margin: 3rem 0;
+    padding: 29px 29px;
+    max-width: 733px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 2.2rem;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 1.2rem;
+}
+
+.descriptaion {
+    max-width: 100%;
+    padding: 2rem 0;
+}
+
+.descriptaion h1 {
+    font-size: 2.3rem;
+    font-family: 'Young Serif', serif;
+    color: hsl(24, 5%, 18%);
+}
+
+.descriptaion p {
+    margin-top: 1.2rem;
+    font-size: 0.9rem;
+    color: hsl(30, 10%, 34%);
+}
+
+.paragrafh_container {
+    margin-top: 1.2rem;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    background-color: hsl(30, 54%, 90%);
+}
+
+.paragrafh_container h4 {
+    font-size: 1rem;
+    color: rgb(181, 88, 103);
+}
+
+.paragrafh_container ul {
+    margin-top: .9rem;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    color: hsl(30, 10%, 34%);
+}
+
+.paragrafh_container ul li {
+    padding: .4rem 1rem;
+}
+
+.ingredients {
+    margin-top: 1.6rem;
+}
+
+.ingredients h3 {
+    color: brown;
+    font-size: 1.5rem;
+    font-family: 'Young Serif', serif;
+}
+
+.ingredients ul {
+    font-size: 1.1rem;
+    padding: 1rem;
+    color: hsl(30, 10%, 34%);
+}
+
+.ingredients ul li {
+    padding: .3rem 1rem;
+}
+
+hr {
+    width: 100%;
+    border-width: 0.009rem;
+    border-color: hsl(30, 10%, 34%, 0.2);
+}
+
+.instructions {
+    margin-top: 1rem;
+}
+
+.instructions h4 {
+    color: brown;
+    font-size: 1.5rem;
+    font-family: 'Young Serif', serif;
+}
+
+.instructions ol {
+    padding: 1.1rem;
+}
+
+.instructions ol li {
+    padding: 0.3rem 1.1rem;
+    font-size: 1.1rem;
+    color: hsl(30, 10%, 34%);
+}
+
+.nutrition {
+    margin-top: 1rem;
+}
+
+.nutrition h4 {
+    color: brown;
+    font-size: 1.5rem;
+    font-family: 'Young Serif', serif;
+}
+
+.nutrition p {
+    margin: 1rem 0;
+    color: hsl(30, 10%, 34%);
+    font-size: 1.1rem;
+}
+
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+
+.nutrition table tr td {
+    border-bottom: 0.01rem solid hsl(30, 10%, 34%, 0.2);
+    padding: 0.8rem 1.2rem;
+    color: hsl(30, 10%, 34%);
+}
+
+.nutrition table tr td:nth-child(even) {
+    color: brown;
+    font-weight: bold;
+}
+
+@media (max-width:375px) {
+    .image {
+        margin: -29px;
+    }
+    .descriptaion h1 {
+        font-size: 1.9rem;
+    }
+    .image img {
+        border-radius: 0px;
+    }
+}
